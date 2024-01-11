@@ -19,16 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@/*": ["./*/main"]
+    },
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    "app/lib/placeholder-data.js",
-    "scripts/seed.js"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "layouts/root/main.js", "layouts/root/ui/providers.js", "layouts/root/ui/container.js", "layouts/auth/main.jsx", "layouts/auth/ui/container.jsx"],
   "exclude": ["node_modules"]
 }

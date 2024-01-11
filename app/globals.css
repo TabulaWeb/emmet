@@ -1,0 +1,73 @@
+/** */
+:root {
+  --container: 1140px;
+  --sidebar: 280px;
+  --component: 40px;
+  --distance: 80px;
+  --margin: 30px;
+  --padding: 20px;
+  --radius: 20px;
+  --size: 14px;
+  --primary: #1f1f99;
+  --secondary: #3399fe;
+  --border: #a9d4ff;
+  --card: #f6f7ff;
+  --text: #2f2f2f;
+  --light: #6c6a7b;
+  --error: #fe3394;
+  --background: #ffffff;
+
+  --phone: 768px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1.5;
+  margin: 0;
+  background-color: var(--background);
+  font-size: var(--size);
+  -webkit-font-smoothing: antialiased;
+  color: var(--text);
+}
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  margin: 0;
+}
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  margin: 0;
+}
+h1 {
+  font-size: 44px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+}
+p {
+  margin: 0;
+}
+a {
+  color: var(--secondary);
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
