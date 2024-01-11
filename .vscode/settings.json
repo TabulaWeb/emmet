@@ -10,16 +10,12 @@
     ".env": false,
     ".eslintrc.json": false,
     ".gitignore": false,
-    ".gitlab-ci.yml": false,
+    "jsconfig.json": false,
     "middleware.js": false,
     "next.config.js": false,
     "package-lock.json": false,
     "package.json": false,
     ".prettierignore": false,
-    ".prettierrc.json": false,
-    "next-auth-d.ts": false,
-    "tsconfig.json": false,
-    "README.md": false,
-    "next-env.d.ts": false
+    "next-auth-d.ts": false
   }
 }

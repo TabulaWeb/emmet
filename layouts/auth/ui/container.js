@@ -6,10 +6,13 @@ export const Container = ({ children }) => {
 }
 
 const Main = styled.div`
-  display: grid;
-  justify-content: center;
-  align-items: center;
   height: 100svh;
-  width: 100%;
-  background-color: #020202;
+
+  display: grid;
+  grid-template-columns: 55vw 1fr;
+
+  @media screen and (max-width: var(--phone)) {
+    grid-template-columns: 1fr;
+    padding: var(--padding);
+  }
 `
